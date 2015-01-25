@@ -1,0 +1,20 @@
+! yeahconsole
+yeahconsole*term:xterm
+yeahconsole*aniDelay:1
+yeahconsole*consoleHeight:25
+yeahconsole*toggleKey:None+F12
+yeahconsole*background:#050505
+yeahconsole*foreground:#999999
+yeahconsole*cursorColor:#009900
+yeahconsole*xOffset:1
+yeahconsole*restart:1
+yeahconsole*keyFull:None+F10
+yeahconsole*keySmaller:Control+KP_Subtract
+yeahconsole*keyBigger:Control+KP_Add
+yeahconsole*faceName: "Terminus":size=12:style=Regular:antialias=true:hinting=true
+yeahconsole*metaSendsEscape:1
+!yeahconsole*screenWidth:950
+
+!xterm
+Xterm*bg:black
+Xterm*fg:grey
