@@ -38,7 +38,7 @@ set hlsearch
 set incsearch
 set showmatch
  
-set number
+"set number
 filetype on
 filetype plugin on
 "
