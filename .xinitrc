@@ -35,5 +35,4 @@ fi
 #		sleep 1
 #done &
 export LANG=en_US.UTF-8
-#exec i3
-exec mate-session
+exec $1
