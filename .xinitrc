@@ -35,4 +35,6 @@ fi
 #		sleep 1
 #done &
 export LANG=en_US.UTF-8
+setxkbmap -layout us,ru -variant ,winkeys -option grp:caps_toggle &
+urxvtd -q -f -o &
 exec $1

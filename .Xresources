@@ -15,14 +15,20 @@ yeahconsole*faceName: "Terminus":size=12:style=Regular:antialias=true:hinting=tr
 yeahconsole*metaSendsEscape:1
 !yeahconsole*screenWidth:950
 
-!uxterm
 UXTerm*bg:black
 UXTerm*fg:grey
-
 Rxvt*background:black
 Rxvt*foreground:grey
+URxvt.depth:32
+URxvt.background:rgba:1111/1111/1111/dddd
+URxvt.scrollBar:false
+URxvt.font:xft:terminus:bold:size=12
+URxvt.perl-lib:/usr/local/lib/urxvt/perl
+URxvt.perl-ext-common:default,clipboard,url-select,keyboard-select
+!URxvt.keysym.M-c:   perl:clipboard:copy
+!URxvt.keysym.M-v:   perl:clipboard:paste
+!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.clipboard.copycmd:xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:xclip -o -selection clipboard
+URxvt.clipboard.autocopy:true
 
-URxvt.depth: 32
-URxvt.background: rgba:1111/1111/1111/dddd
-URxvt.scrollBar: false
-URxvt.font: xft:terminus:bold:size=12

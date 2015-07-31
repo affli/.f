@@ -7,7 +7,7 @@ set $left j
 set $right semicolon
 
 floating_modifier Mod1
-bindsym Mod1+Return exec i3-sensible-terminal
+bindsym Mod1+Return exec urxvtcd 
 bindsym Mod1+Shift+q kill
 #bindsym Mod1+d exec dmenu_run
 bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
@@ -57,13 +57,13 @@ bindsym Mod1+Shift+minus move scratchpad
 bindsym Mod1+minus scratchpad show
 
 # ASSIGN WORKSPACE VARIABLES
-set $WS1 term
-set $WS2 dev
-set $WS3 web 
-set $WS4 mail
-set $WS5 chat
-set $WS6 media
-set $WS7 misc
+set $WS1 1: term
+set $WS2 2: dev
+set $WS3 3: web 
+set $WS4 4: mail
+set $WS5 5: chat
+set $WS6 6: media
+set $WS7 7: misc
 
 # switch to workspace
 bindsym Mod1+1 workspace $WS1
