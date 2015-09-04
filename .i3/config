@@ -147,8 +147,8 @@ bar {
     }
 }
 
-gaps inner 16 
-gaps outer 8 
+#gaps inner 16 
+#gaps outer 8 
 #smart_gaps on
 #smart_borders on|no_gaps
 for_window [class="^.*"] border pixel 1 
@@ -167,5 +167,5 @@ client.unfocused                #444444 #444444  #315858
 client.focused_inactive        #444444 #444444  #2c2c2f
 client.urgent           #383a3b #383a3b  #ee0000
 
-exec --no-startup-id ~/.fehbg
+#exec --no-startup-id ~/.fehbg
 exec --no-startup-id compton
