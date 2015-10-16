@@ -35,6 +35,9 @@ fi
 #		sleep 1
 #done &
 export LANG=en_US.UTF-8
+export TERM=urxvtcd
 setxkbmap -layout us,ru -variant ,winkeys -option grp:caps_toggle &
 urxvtd -q -f -o &
+$HOME/.fehbg &
+compton -cCfGb --detect-rounded-corners --vsync opengl-swc --sw-opti --paint-on-overlay --xinerama-shadow-crop --backend xr_glx_hybrid --glx-no-stencil --glx-use-copysubbuffermesa --xrender-sync &
 exec $1
