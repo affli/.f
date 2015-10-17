@@ -4,5 +4,7 @@ alias ll='ls -l'
 alias la='ls -A'
 alias lla='ls -Al'
 alias vi='vim'
+alias mc='mc -S darkfar'
+alias mcedit='mcedit -S darkfar'
 # nice solution to pass aliases to sudo
 alias sudo='sudo '
