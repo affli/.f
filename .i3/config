@@ -169,4 +169,4 @@ client.urgent           #383a3b #383a3b  #ee0000
 
 exec --no-startup-id ~/.fehbg
 exec --no-startup-id urxvtd -q -f -o
-exec --no-startup-id compton
+#exec --no-startup-id compton
