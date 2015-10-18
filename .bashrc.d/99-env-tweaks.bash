@@ -1,0 +1,2 @@
+export QT_QPA_PLATFORMTHEME=qt5ct
+export MOZ_USE_OMTC=1

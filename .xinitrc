@@ -36,6 +36,9 @@ fi
 #done &
 export LANG=en_US.UTF-8
 export TERM=urxvtcd
+export QT_QPA_PLATFORMTHEME=qt5ct
+export MOZ_USE_OMTC=1
+
 setxkbmap -layout us,ru -variant ,winkeys -option grp:caps_toggle &
 urxvtd -q -f -o &
 $HOME/.fehbg &
